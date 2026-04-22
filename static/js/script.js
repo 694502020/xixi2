@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     document.querySelector('.heartbeat-container').addEventListener('click', function() {
         const loadingOverlay = document.getElementById('loading-overlay');
-        const watermarks = addWatermarks('我是大水印');
+        const watermarks = addWatermarks('熙熙');
         const heartbeatContainer = document.querySelector('.heartbeat-container');
 
         // 添加时间显示
